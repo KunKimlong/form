@@ -11,42 +11,43 @@
     <div class="container">
         <div class="col-5 mx-auto bg-light p-3">
             <form action="">
-                <label for="">Code:</label>
-                <input type="text" name="" placeholder="Code: " id="" class="form-control my-2">
+                <label for="">ID:</label>
+                <input type="text" name="" placeholder="ID: " id="" class="form-control my-2">
                 <label for="">Name:</label>
                 <input type="text" name="" placeholder="Name: " id="" class="form-control my-2">
-                <label for="">Qty:</label>
-                <input type="text" name="" placeholder="Qty: " id="" class="form-control my-2">
-                <label for="">Price:</label>
-                <input type="text" name="" placeholder="Price: " id="" class="form-control my-2">
-                <label for="">Discount:</label>
+                <label for="">Gender</label>
                 <select name="" id="" class="form-select my-2">
-                    <option value="0">0 %</option>
-                    <option value="10">10 %</option>
-                    <option value="15">15 %</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
                 </select>
-
-                <button class="btn btn-success">Submit</button>
-                <button class="btn btn-danger">Reset</button>
+                <label for="">Score1:</label>
+                <input type="text" name="" placeholder="Score1: " id="" class="form-control my-2">
+                <label for="">Score2:</label>
+                <input type="text" name="" placeholder="Score2: " id="" class="form-control my-2">
+                <label for="">Score3:</label>
+                <input type="text" name="" placeholder="Score3: " id="" class="form-control my-2">
+                <button class="btn btn-success my-2">Submit</button>
+                <button class="btn btn-danger my-2">Reset</button>
             </form>
         </div>
         <table class="text-center table table-dark table-hover">
             <thead>
                 <tr>
-                    <th>Code</th>
+                    <th>ID</th>
                     <th>Name</th>
-                    <th>Qty</th>
-                    <th>Price</th>
+                    <th>Gender</th>
+                    <th>Score1</th>
+                    <th>Score2</th>
+                    <th>Score3</th>
                     <th>Total</th>
-                    <th>Discount</th>
-                    <th>Payment</th>
+                    <th>Average</th>
+                    <th>Grade</th>
                 </tr>
             </thead>
             <tbody id="demo">
 
             </tbody>
         </table>
-
     </div>
 </body>
 </html>
